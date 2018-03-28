@@ -1,5 +1,9 @@
 package edu.cnm.deepdive.heydocbe.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import java.util.LinkedList;
 import java.util.List;
 import javax.persistence.Column;
@@ -11,17 +15,20 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OrderBy;
 
-
+@JsonInclude(Include.NON_NULL)
+@JsonIgnoreProperties(value = {"id"},
+    allowGetters = true, ignoreUnknown = true)
 @Entity
 public class Specialty {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private long id;
 
   @Column(length = 20)
   private String field;
 
+  @JsonIgnore
   @OneToMany(mappedBy = "specialty", fetch = FetchType.LAZY)
   @OrderBy("last_name ASC, first_name ASC")
   private List<Practitioner> practitioners = new LinkedList<>();

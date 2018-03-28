@@ -14,7 +14,7 @@ import javax.persistence.OneToOne;
 public class Practitioner {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private long id;
 
   private String lastName;

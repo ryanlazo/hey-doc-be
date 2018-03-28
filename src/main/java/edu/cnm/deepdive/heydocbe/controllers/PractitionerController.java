@@ -5,10 +5,10 @@ import edu.cnm.deepdive.heydocbe.model.entity.Practitioner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/practitioners")
 public class PractitionerController {
 
   private PractitionerRepository practitionerRepository;
@@ -18,8 +18,13 @@ public class PractitionerController {
     this.practitionerRepository = practitionerRepository;
   }
 
-  @GetMapping
+  @RequestMapping("/practitioners")
   public Iterable<Practitioner> practitionerList() {
     return practitionerRepository.findAll();
+  }
+
+  @RequestMapping("/practitioners/find")
+  public Iterable<Practitioner> practitionersById(@RequestParam long specialtyId) {
+    return practitionerRepository.findPractitionersBySpecialtyId(specialtyId);
   }
 }
