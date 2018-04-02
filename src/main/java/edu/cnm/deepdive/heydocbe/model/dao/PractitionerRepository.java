@@ -8,4 +8,6 @@ import org.springframework.data.repository.CrudRepository;
 public interface PractitionerRepository extends CrudRepository<Practitioner, Long> {
 
  public List<Practitioner> findPractitionersBySpecialtyId(long specialtyId);
+
+ public Practitioner findById(long Id);
 }

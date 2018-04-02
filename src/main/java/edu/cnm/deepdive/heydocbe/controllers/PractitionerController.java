@@ -24,7 +24,12 @@ public class PractitionerController {
   }
 
   @RequestMapping("/practitioners/find")
-  public Iterable<Practitioner> practitionersById(@RequestParam long specialtyId) {
+  public Iterable<Practitioner> practitionersBySpecialtyId(@RequestParam long specialtyId) {
     return practitionerRepository.findPractitionersBySpecialtyId(specialtyId);
+  }
+
+  @RequestMapping("/practitioners/find/id")
+  public Practitioner practitionerById(@RequestParam long practitionerId) {
+    return practitionerRepository.findById(practitionerId);
   }
 }
