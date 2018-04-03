@@ -24,8 +24,6 @@ public class Profile {
   @JoinColumn(name = "practitioner_id")
   Practitioner practitioner;
 
-  private String imageRef;
-
   @Column(columnDefinition="text")
   @Lob
   private String bio;
@@ -36,14 +34,6 @@ public class Profile {
 
   public void setId(long id) {
     this.id = id;
-  }
-
-  public String getImageRef() {
-    return imageRef;
-  }
-
-  public void setImageRef(String imageRef) {
-    this.imageRef = imageRef;
   }
 
   public String getBio() {

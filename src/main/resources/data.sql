@@ -15,7 +15,6 @@ insert into specialty (field) values ('Rheumatology');
 insert into specialty (field) values ('Urology');
 
 
-
 insert into practitioner (last_name, first_name,specialty_id) values ('Abernathy', 'Katherine', 1);
 insert into practitioner (last_name, first_name,specialty_id) values ('Clayton', 'Michael', 1);
 insert into practitioner (last_name, first_name,specialty_id) values ('Clayton', 'Michael', 1);
@@ -25,7 +24,6 @@ insert into practitioner (last_name, first_name,specialty_id) values ('Jenkins',
 insert into practitioner (last_name, first_name,specialty_id) values ('Keslin', 'Michael', 1);
 insert into practitioner (last_name, first_name,specialty_id) values ('Rosandich', 'Ronald', 1);
 insert into practitioner (last_name, first_name,specialty_id) values ('Tolber', 'Steven', 1);
-
 
 insert into practitioner (last_name, first_name,specialty_id) values ('Achrekar', 'Abinash', 2);
 insert into practitioner (last_name, first_name,specialty_id) values ('Alkouz', 'Munif', 2);
@@ -214,5 +212,198 @@ insert into practitioner (last_name, first_name,specialty_id) values ('Wenner', 
 insert into practitioner (last_name, first_name,specialty_id) values ('Wilson', 'Jason', 15);
 
 
+insert into profile (practitioner_id, bio) values (1, 'Dr. Katherine Abernathy-Carver, MD is an allergy & asthma specialist in Albuquerque, NM and has been practicing for 24 years. She graduated from Univ Of Nm Sch Of Med in 1989 and specializes in allergy & asthma.');
+insert into profile (practitioner_id, bio) values (2, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (3, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (4, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (5, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (6, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (7, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (8, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (9, 'Doctor profile can be added here');
 
-insert into profile (practitioner_id, bio) values (54, 'Dr. Henry is dedicated to providing high-quality dental care in a comfortable,family-friendly environment. Born and raised in Albuquerque, he received his undergraduate degree from the University of Mexico before earning his dental degree from the Arizona School of Dentistry in 2016.')
+insert into profile (practitioner_id, bio) values (10, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (11, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (12, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (13, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (14, 'Dr. Brendan Cavanaugh is a cardiologist in Albuquerque, New Mexico and is affiliated with Christus St. Vincent Regional Medical Center. He received his medical degree from Rush Medical College and has been in practice between 11-20 years.');
+insert into profile (practitioner_id, bio) values (15, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (16, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (17, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (18, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (19, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (20, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (21, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (22, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (23, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (24, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (25, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (26, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (27, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (28, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (29, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (30, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (31, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (32, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (33, 'Dr. Beau B Hightower earned the first of three Bachelor of Science degrees in Biology from the University of New Mexico. Subsequent Bachelor of Science degrees in Anatomy, followed by Health and Wellness were earned. Dr. Hightower graduated with honors from Parker University where he earned his DC degree. His Sports Medicine Residency was completed in Bogota, Colombia where he treated the countrys Olympic athletes at the Coldeportes training facility.');
+insert into profile (practitioner_id, bio) values (34, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (35, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (36, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (37, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (38, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (39, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (40, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (41, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (42, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (43, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (44, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (45, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (46, 'Carol Purcell, PA-C is a licensed physician assistant who practices medicine to serve patients from Albuquerque, Rio Rancho, and beyond in partnership with Western Dermatology Consultants. ');
+insert into profile (practitioner_id, bio) values (47, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (48, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (49, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (50, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (51, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (52, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (53, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (54, 'Dr. Henry is dedicated to providing high-quality dental care in a comfortable, family-friendly environment. Born and raised in Albuquerque, he received his undergraduate degree from the University of Mexico before earning his dental degree from the Arizona School of Dentistry in 2016.');
+insert into profile (practitioner_id, bio) values (55, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (56, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (57, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (58, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (59, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (60, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (61, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (62, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (63, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (64, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (65, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (66, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (67, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (68, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (69, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (70, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (71, 'Dr. Liat Shama, MD is an otolaryngology (ear, nose & throat) specialist in Albuquerque, NM and has been practicing for 14 years. She graduated from Univ Of Nm Sch Of Med in 2004');
+insert into profile (practitioner_id, bio) values (72, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (73, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (74, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (75, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (76, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (77, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (78, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (79, 'Dr. Marta Terlecki, MD is an endocrinology, diabetes & metabolism specialist in Albuquerque, NM and has been practicing for 35 years. ');
+insert into profile (practitioner_id, bio) values (80, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (81, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (82, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (83, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (84, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (85, 'Dr. Barakat graduated from the University of Damascus - Faculty of Medicine, Damascus, Syria in 1993');
+insert into profile (practitioner_id, bio) values (86, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (87, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (88, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (89, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (90, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (91, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (92, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (93, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (94, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (95, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (96, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (97, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (98, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (99,  'Dr. Altman graduated from the University of California, San Diego School of Medicine in 1978');
+insert into profile (practitioner_id, bio) values (100, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (101, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (102, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (103, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (104, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (105, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (106, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (107, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (108, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (109, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (110, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (111, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (112, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (113, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (114, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (115, 'Mr. Bridges works in Albuquerque, NM and specializes in Pain Management. Mr. Bridges is affiliated with Presbyterian Kaseman Hospital.');
+insert into profile (practitioner_id, bio) values (116, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (117, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (118, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (119, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (120, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (121, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (122, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (123, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (124, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (125, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (126, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (127, 'Dr. Hadid graduated from the University of Damascus - Faculty of Medicine, Damascus, Syria in 2005');
+insert into profile (practitioner_id, bio) values (128, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (129, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (130, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (131, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (132, 'Dr. Evan Knaus, DO is a sports medicine specialist in Albuquerque, NM and has been practicing for 11 years. He graduated from Chicago College Of Osteopathic Med in 2003');
+insert into profile (practitioner_id, bio) values (133, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (134, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (135, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (136, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (137, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (138, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (139, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (140, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (141, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (142, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (143, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (144, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (145, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (146, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (147, 'Dr. Michael Sievert is a psychiatrist in Albuquerque, New Mexico and is affiliated with Presbyterian Hospital. He received his medical degree from Medical College of Wisconsin and has been in practice for more than 20 years.');
+insert into profile (practitioner_id, bio) values (148, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (149, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (150, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (151, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (152, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (153, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (154, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (155, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (156, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (157, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (158, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (159, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (160, 'Dr. Konstantin Konstantinov, MD is a rheumatology specialist in Albuquerque, NM and has been practicing for 40 years.');
+insert into profile (practitioner_id, bio) values (161, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (162, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (163, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (164, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (165, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (166, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (167, 'Doctor profile can be added here');
+
+insert into profile (practitioner_id, bio) values (168, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (169, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (170, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (171, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (172, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (173, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (174, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (175, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (176, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (177, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (178, 'Dr. Frederick Snoy, MD is an urology specialist in Albuquerque, NM and has been practicing for 38 years. He graduated from Indiana University / School Of Medicine in 1980 and specializes in urology.');
+insert into profile (practitioner_id, bio) values (179, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (180, 'Doctor profile can be added here');
+insert into profile (practitioner_id, bio) values (181, 'Doctor profile can be added here');
